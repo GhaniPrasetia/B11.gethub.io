@@ -1,0 +1,275 @@
+/* CSS dari bawaan header */
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0;
+  background-image: url(https://www.doktortj.com/blog_images/20200722034300.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Change the position property to fixed, and top property to 0 */
+  position: fixed;
+  top: 0;
+
+  /* Change the z-index property to 10 */
+  z-index: 10;
+}
+
+.logo {
+  margin-top: 5px;
+  height: 60px;
+  width: 60px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  /* margin: 0px 10px; */
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+/* CSS bawaan dari main */
+body {
+  font-family: "Arial";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: right;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 50px 80px;
+}
+
+.copy-container h1 {
+  font-size: 50px;
+}
+
+.copy-container h2 {
+  font-size: 20px;
+}
+
+.contents {
+  height: 500px;
+  /* margin-top: 100px; */
+  margin-bottom: -50px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  /* padding-bottom: 15px;
+  margin-bottom: 50px; */
+}
+
+.contents-item {
+  float: left;
+  margin: 0px 25px;
+}
+
+.contents-item p {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact-form {
+  text-align: left;
+  padding-left: 100px;
+  /* padding-top: 100px; */
+}
+
+h3 {
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+.btn {
+  margin-top: 40px;
+  text-align: center;
+  opacity: 1;
+  transition: all 0.1s;
+}
+
+input,
+textarea {
+  width: 200px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  width: 222px;
+  background-color: #dee7ec;
+  color: #fff;
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.contact-submit:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.btn-tele:hover {
+  padding-left: 20;
+  opacity: 0.5;
+}
+.btn-github:hover {
+  opacity: 0.5;
+}
+
+/* CSS bawaan dari footer */
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  /* height: 300px; */
+  padding: 20px;
+  position: relative;
+}
+
+.footer-logo {
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+
+.footer-list {
+  float: left;
+}
+
+.footer-list li {
+  padding-bottom: 5px;
+}
+
+.footer-team {
+  padding: 0px 0px 0px 80px;
+  margin-top: -140px;
+  text-align: center;
+}
+
+.footer-sponsor {
+  /* text-align: left; */
+  margin-top: -140px;
+}
+
+.copyright {
+  text-align: center;
+  /* padding: 100px 20px; */
+  color: white;
+}
+.copyright a {
+  color: white;
+}
+
+th,
+td {
+  width: 500px;
+}
+
+.wrapper {
+  width: 180px;
+  margin: 0 auto;
+}
+
+.zoom-effect {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.kotak {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.kotak img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 180px;
+  align: center;
+  height: 170px;
+}
+
+.zoom-effect:hover .kotak img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.up-to {
+  margin-top: -180px;
+}
